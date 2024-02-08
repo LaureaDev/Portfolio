@@ -152,7 +152,7 @@ nav ul li a {
 }
 
 .home-content p {
-    font-size: 15px;
+    font-size: 20px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: .7s;
@@ -212,15 +212,16 @@ nav ul li a {
     position: relative;
     width: 100%;
     align-items: center;
+   
     padding: 70px 10% 0;
     display: block;
-    text-align: center;
+    /* text-align: center; */
     
 }
 
 .about-text  h2  {
     font-size: 60px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .texts{
@@ -238,6 +239,7 @@ nav ul li a {
 
 .about-text p {
 
+    text-align: justify;
     color: aliceblue;
     font-size: 20px;
     line-height: 1.4rem;
@@ -263,18 +265,22 @@ nav ul li a {
     line-height: 1.4;
     margin-bottom: 4rem;
 }
+.myserv {
+    font-size: 24px;
+    text-align: center;
+}
 .services-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(259px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-    text-align: justify;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    grid-gap: 100px;
+    margin: 50px;
+    /* text-align: justify; */
 }
 
 .services-list div{
     background-color: transparent;
     padding: 40px;
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 13px;
     border-right: 10px;
     border-radius: 20px;
@@ -300,8 +306,18 @@ nav ul li a {
     margin-top: 20px;
     display: inline-block;
 }
+.services-list p {
+    color: rgb(202, 202, 202);
+}
+.h2-list{
+    color: rgb(98, 32, 252);
+}
+.black {
+    color: #00e1ff;
+}
 .read{
     display: inline-block;
+
     padding: 12px 28px;
     background: #0ef;
     border-radius: 40px;
@@ -565,7 +581,7 @@ section{
 .radial-bar .percentage{
     position: absolute;
     top: 45%;
-    left: 10%;
+    left: 9%;
     transform: translate(-50%, -50%);
     font-size: 17px;
     animation: showText 0.5s 1s linear forwards;
@@ -706,7 +722,7 @@ section{
 }
 
 .contact-text p{
-    color: rgb(177, 177, 177);
+    color: rgb(202, 202, 202);
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 2rem;
@@ -1062,24 +1078,26 @@ section{
 /* Responsive for large than 575px srceen */
 
 @media screen and (max-width:575px) {
+    .home-content h1 {
+        font-size: 36px;
+    }
     .home-content {
-        padding: 7px 2% 0;
+        padding: 70px 5% 0;
     }   
     .imagen{
         width: 60%;
        
     }
     .about {
-        padding: 7px 0;
-        margin-bottom: 80px;
+        padding: 70px 5% 0; 
     }
-    
-    .about-text  h2  {
-        font-size: 60px;
-        text-align: center;
-        margin-top: 80px;
-        
+    .sub-title h2 {
+        font-size: 36px;
     }
+    .about-text{
+        padding: 3px 20px 0;
+    }
+
     
     .technical-bars .bar{
         width: 100%;
