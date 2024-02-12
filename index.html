@@ -13,8 +13,18 @@
 
 <body>
     <header class="header">
-        <a href="#" class="logo">
-            PORT<span class="texts">FOLIO</span>
+        <div id="flags" class="flags">
+            <div class="flags__item" data-language="ar">
+                <img class="flags__img" src="assets/icon/ar.svg" alt="">
+            </div>
+            <div class="flags__item" data-language="us">
+                <img class="flags__img" src="assets/icon/us.svg" alt="">
+            </div>
+        </div>
+
+
+        <a href="#" data-section="logo" data-value="first-logo" class="logo">
+            PORT<span style='color:#00e1ff'>FOLIO</span>
         </a>
         <nav class="navbar">
             <input type="checkbox" id="check">
@@ -22,21 +32,24 @@
                 <i class='bx bx-menu'></i>
             </label>
             <ul>
-                <li><a href="#home" style="--i:1" class"active">Home</a></li>
-                <li><a href="#about" style="--i:2">About</a></li>
-                <li><a href="#services" style="--i:3">Skill</a></li>
-                <li><a href="#skills" style="--i:4">Portfolio</a></li>
-                <li><a href="#contact" style="--i:5">Contact</a></li>
+                <li><a data-section="logo" data-value="first" href="#home" style="--i:1" class"active">Home</a></li>
+                <li><a data-section="logo" data-value="second" href="#about" style="--i:2">About</a></li>
+                <li><a data-section="logo" data-value="third" href="#services" style="--i:3">Skill</a></li>
+                <li><a data-section="logo" data-value="fourth" href="#skills" style="--i:4">Portfolio</a></li>
+                <li><a data-section="logo" data-value="five" href="#contact" style="--i:5">Contact</a></li>
             </ul>
         </nav>
+
     </header>
 
     <div class="container home" id="home">
+
         <section class="home-content">
-            <h3>Hello, It's Me</h3>
+            <h3 data-section="profile" data-value="rol">Hello, It's Me</h3>
             <h1>Laureano Natalutti</h1>
-            <h3>A passionate <span class="text"></span></h3>
-            <p>Dedicated to crafting impactful digital experiences. My approach extends beyond mere programming; <br>
+            <h3><span class="text"></span></h3>
+            <p data-section="profile" data-value="description">Dedicated to crafting impactful digital experiences. My
+                approach extends beyond mere programming; <br>
                 I'm a visual creator who seamlessly merges design and development to build memorable and functional
                 websites.
                 <br>
@@ -53,18 +66,21 @@
             </div>
 
             <div>
-                <a href="CVLaureanoNatalutti.pdf" download="CV Laureano Natalutti 01-2024" class="btn-box"> My Career
+                <a data-section="profile" data-value="first-button" href="CVLaureanoNatalutti.pdf"
+                    download="CV Laureano Natalutti 01-2024" class="btn-box"> My Career
                 </a>
             </div>
         </section>
+
         <img src="assets/img/img01.png" class="imagen">
     </div>
 
     <section class="about" id="about">
         <div class="sub-title about-text">
-            <h2>About <span class="texts">Me</span></h2>
-            <h4>Crafting Digital Experiences with Passion</h4>
-            <p>Greetings, I'm Laureano Natalutti, an accomplished Full Stack Developer driven
+            <h2 data-section="about" data-value="about-title">About <span style='color:#00e1ff'>Me</span></h2>
+            <h4 data-section="about" data-value="about-subtitle">Crafting Digital Experiences with Passion</h4>
+            <p data-section="about" data-value="p">Greetings, I'm Laureano Natalutti, an accomplished Full Stack
+                Developer driven
                 by an intense passion for crafting exceptional digital experiences. My meticulous focus on detail and
                 unwavering commitment to excellence immerse me in the intersection of coding and design,
                 bringing innovative ideas to life with a distinctive touch.
@@ -75,7 +91,8 @@
                 eagerly exploring new technologies and emerging trends. My constant pursuit of learning and
                 evolution keeps me at the forefront of the latest trends in frontend design and development.
             </p>
-            <a href="CVLaureanoNatalutti.pdf" download="CV Laureano Natalutti 01-2024" class="btn-box"> Explore My
+            <a data-section="about" data-value="first-button" href="CVLaureanoNatalutti.pdf"
+                download="CV Laureano Natalutti 01-2024" class="btn-box"> Explore My
                 Career </a>
         </div>
     </section>
@@ -83,70 +100,69 @@
     <section>
         <div class="services" id="services">
             <div class="container">
-                <h2 class="sub-title">My <span class="texts">Services</span></h2>
-                <p class="myserv">As a Full Stack Developer and Web Designer,
+                <h2 data-section="services" data-value="first" class="sub-title">My <span style='color:#00e1ff'>Services</span></h2>
+                <p data-section="services" data-value="first-p" class="myserv">As a Full Stack Developer and Web
+                    Designer,
                     I offer specialized services to take your projects to the next level. My areas of expertise include
                 </p>
                 <div class="services-list">
                     <div>
                         <i class='bx bx-code' style='color:#00eeff'></i>
-                        <h2 class="h2-list">Frontend Development and UI/UX Design</h2>
+                        <h2 data-section="services" data-value="first-title" class="h2-list">Frontend Development and
+                            UI/UX Design</h2>
 
-                        <p>
-                            <strong class="black">Visual Creation:</strong> I transform abstract concepts into
+                        <p data-section="services" data-value="services-p-1">
+                            <strong style='color:#00e1ff'>Visual Creation:</strong> I transform abstract concepts into
                             captivating visual
                             interfaces,
-                            ensuring a unique user experience.
-                            <br>
-                            <br>
-                            <strong class="black">Modern Technology:</strong> I use advanced FrontEnd technologies like
-                            HTML5, CSS3
-                            and JavaScript,
-                            along with frameworks like React and Node.js, to build modern and efficient websites.
-
+                            ensuring a unique user experience. 
+                        <br>
+                        <br>
+                            <strong style='color:#00e1ff'>Modern Technology:</strong> 
+                            I use advanced FrontEnd technologies like
+                            HTML5, CSS3 and JavaScript, along with frameworks like React and Node.js, 
+                            to build modern and efficient websites.
                         </p>
-                        <!-- <a href="" class="read">Read more</a> -->
+
                     </div>
                     <div>
                         <i class='bx bx-crop' style='color:#00eeff'></i>
-                        <h2 class="h2-list">User Experience Optimization</h2>
-                        <p><strong class="black">Intuitive Interfaces:</strong> I specialize in creating user-friendly
+                        <h2 data-section="services" data-value="second-title" class="h2-list">User Experience
+                            Optimization</h2>
+                        <p data-section="services" data-value="services-p-2"><strong style='color:#00e1ff' >Intuitive Interfaces:</strong> I specialize in creating user-friendly
                             interfaces, prioritizing user
                             experience to ensure smooth navigation and effective interaction.
                             <br>
                             <br>
-                            <strong class="black">User Testing:</strong> I perform extensive testing to ensure that
+                            <strong style='color:#00e1ff' >User Testing:</strong> I perform extensive testing to ensure that
                             every element of the interface
                             meets usability and accessibility standards.
                         </p>
-                        <!-- <a href="" class="read">Read more</a> -->
                     </div>
 
                     <div>
-                        <i <i class='bx bx-code-curly' style='color:#00eeff'></i> 
-                        <h2 class="h2-list">Full Stack Development</h2>
-                        <p> <strong class="black">Holistic Solutions:</strong> I offer a complete
+                        <i <i class='bx bx-code-curly' style='color:#00eeff'></i>
+                        <h2 data-section="services" data-value="third-title" class="h2-list">Full Stack Development</h2>
+                        <p data-section="services" data-value="services-p-3"> <strong style='color:#00e1ff' >Holistic Solutions:</strong> I offer a complete
                             approach from conception to implementation, ensuring cohesion between frontend and backend.
                             <br>
                             <br>
-                            <strong class="black">Efficiency and Performance:</strong> Development efficiency and robust
+                            <strong style='color:#00e1ff'>Efficiency and Performance:</strong> Development efficiency and robust
                             performance are central to my
                             approach, ensuring that your projects are scalable and effective.</p>
-                        <!-- <a href="" class="read">Read more</a> -->
                     </div>
 
                     <div>
                         <i class='bx bxs-magic-wand' style='color:#00eeff'></i>
-                        <h2 class="h2-list">Continuous Innovation</h2>
-                        <p> <strong class="black">Staying on the Cutting Edge:</strong> I remain constantly updated with
+                        <h2 data-section="services" data-value="fourth-title" class="h2-list">Continuous Innovation</h2>
+                        <p data-section="services" data-value="services-p-4"> <strong style='color:#00e1ff'>Staying on the Cutting Edge:</strong> I remain constantly updated with
                             the latest trends in design and
                             development, incorporating innovation into every project.
                             <br>
                             <br>
-                            <strong class="black">Modern Solutions:</strong> From emerging technologies to current
+                            <strong style='color:#00e1ff' >Modern Solutions:</strong> From emerging technologies to current
                             development practices, I implement
                             modern solutions that keep your digital presence on par with market expectations.</p>
-                        <!-- <a href="" class="read">Read more</a> -->
                     </div>
 
                 </div>
@@ -158,8 +174,8 @@
 
     <section>
         <div class="container1" id="skills">
-            <h1 class="sub-title">My <span class="texts">Skills</span></h1>
-            <h1 class="heading1 ">Technical Skills</h1>
+            <h1 data-section="skill" data-value="first-title" class="sub-title">My <span  style='color:#00e1ff' >Skills</span></h1>
+            <h1 data-section="skill" data-value="first-subtitle" class="heading1 ">Technical Skills</h1>
             <div class="technical-bars">
                 <div class="bar"><i style="color: #c95d2e;" class='bx bxl-html5'></i>
                     <div class="info">
@@ -230,7 +246,7 @@
             </div>
         </div>
         <div class="container1">
-            <h1 class="heading2">Professional Skills</h1>
+            <h1 data-section="skill" data-value="second-subtitle" class="heading2">Professional Skills</h1>
             <div class="radial-bars">
                 <div class="radial-bar">
                     <svg x="0px" y="0px" viewBox="0 0 200 200">
@@ -238,7 +254,7 @@
                         <circle class="path path-4" cx="100" cy="100" r="80"></circle>
                     </svg>
                     <div class="percentage">90%</div>
-                    <div class="text">TeamWork</div>
+                    <div data-section="skill" data-value="first-first-percentage" class="text">TeamWork</div>
                 </div>
                 <div class="radial-bar">
                     <svg x="0px" y="0px" viewBox="0 0 200 200">
@@ -246,7 +262,7 @@
                         <circle class="path path-1" cx="100" cy="100" r="80"></circle>
                     </svg>
                     <div class="percentage">80%</div>
-                    <div class="text">Creativity</div>
+                    <div data-section="skill" data-value="first-second-percentage" class="text">Creativity</div>
                 </div>
 
 
@@ -257,7 +273,7 @@
                         <circle class="path path-2" cx="100" cy="100" r="80"></circle>
                     </svg>
                     <div class="percentage">75%</div>
-                    <div class="text">Communication</div>
+                    <div data-section="skill" data-value="first-third-percentage" class="text">Communication</div>
                 </div>
 
                 <div class="radial-bar">
@@ -266,7 +282,7 @@
                         <circle class="path path-3" cx="100" cy="100" r="80"></circle>
                     </svg>
                     <div class="percentage">70%</div>
-                    <div class="text">Problem Solving</div>
+                    <div data-section="skill" data-value="first-fourth-percentage" class="text">Problem Solving</div>
                 </div>
 
             </div>
@@ -276,22 +292,19 @@
     <section>
         <div class="portafolio" id="project">
             <div class="main-text" id="project">
-                <h2>Latest <span>Projects </span></h2>
+                <h2 data-section="project" data-value="first-title"  >Latest<span style='color:#00e1ff'> Projects </span></h2>
 
                 <div class="portfolio-content">
 
                     <div class="row">
                         <img src="assets/img/img6.jpg">
                         <div class="layer">
-                            <h5>Digital Marketing Agency</h5>
-                            <p> Elevate your digital presence at Digital Social Connect, where we merge development and
-                                design to stand out in the digital world. As a Full Stack Developer and enthusiasts of
-                                UI/UX Design, we craft unique experiences. Discover how we turn ideas into digital
-                                reality, surpassing expectations and setting standards in every project. Your digital
-                                success begins here. Connect with us!
+                            <h5 data-section="project" data-value="first-layer-subtitle" >Digital Marketing Agency</h5>
+                            <p data-section="project" data-value="first-layer-p1"> 
+                                Enhance your digital presence at Digital Social Connect, where we blend development and design to stand out in the digital world. As a Full Stack Developer and enthusiasts of UI/UX Design, we craft unique experiences, turning ideas into digital reality, exceeding expectations, and setting standards in every project. 
                             </p>
 
-                            <a href="https://www.digitalsocialconnect.com/" target="_blank"><i
+                        <a href="https://www.digitalsocialconnect.com/" target="_blank"><i
                                     class='bx bx-link-external' style="color: rgb(3, 231, 201)"></i></a>
                         </div>
                     </div>
@@ -299,9 +312,8 @@
                     <div class="row">
                         <img src="assets/img/5757453.jpg" alt="">
                         <div class="layer">
-                            <h5>FrontEnd & UI/UX Mastery</h5>
-                            <p>Experience the synergy between frontend development and UI/UX design through my
-                                highlighted work. In a recent project, I transformed creative ideas into a captivating
+                            <h5 data-section="project" data-value="second-layer-subtitle">FrontEnd & UI/UX</h5>
+                            <p data-section="project" data-value="first-layer-p2">In a recent project, I transformed creative ideas into a captivating
                                 and functional interface. From crafting visual elements to implementing efficient
                                 frontend solutions, my comprehensive approach ensured an exceptional user experience.
                                 Discover how each line of code and every visual detail came together to drive the
@@ -314,13 +326,9 @@
                     <div class="row">
                         <img src="assets/img/5467393.jpg" alt="">
                         <div class="layer">
-                            <h5>Website Development</h5>
-                            <p>
-                                Explore my expertise in website development, where each line of code is a key piece in
-                                crafting unique digital experiences. From conception to implementation, each project
-                                reflects my comprehensive approach and ability to seamlessly merge appealing design with
-                                robust functionality. Discover how each website becomes an expression of innovation and
-                                excellence in the digital realm.</p>
+                            <h5 data-section="project" data-value="third-layer-subtitle" >Website Development</h5>
+                            <p data-section="project" data-value="first-layer-p3"  >
+                                Explore my expertise in web development, where each line of code is essential for crafting unique digital experiences. From conception to implementation, each project reflects my comprehensive approach by seamlessly blending attractive design with robust functionality.</p>
 
                             <a href="#"><i class='bx bx-link-external' style="color: rgb(3, 231, 201)"></i></a>
                         </div>
@@ -336,22 +344,22 @@
 
 
         <div class="contact-text">
-            <h2>Contact <span>Me</span></h2>
-            <h4>Let's work Together</h4>
-            <p>
+            <h2 data-section="contact" data-value="first-title" >Contact <span style='color:#00e1ff' >Me</span></h2>
+            <h4 data-section="contact" data-value="first-subtitle" >Let's work Together</h4>
+            <p data-section="contact" data-value="first-p" >
                 Excited to be part of extraordinary projects that push boundaries. If you're seeking a dedicated and
                 passionate professional, I'm here to bring your vision to life. Actively exploring new opportunities and
-                inspiring collaborations. Ready to infuse my experience and creativity into ambitious challenges. 
+                inspiring collaborations. Ready to infuse my experience and creativity into ambitious challenges.
                 <br>
                 <br>
                 Let's chat and make your goals a reality!
             </p>
 
             <div class="contact-list">
-                <li><a href="https://api.whatsapp.com/send?phone=543483482479&text=Hola%20vi%20tu%20Curriculum%20Vitae%2C%20quiero%20hablar%20contigo%20..."
-                        target="_blank"><i class='bx bxs-phone-call bx-burst'></i> <span> Phone</span></a></li>
-                <li><a href="CVLaureanoNatalutti.pdf" download="CV Laureano Natalutti 01-2024"><i
-                            class='bx bxs-download bx-fade-down'></i> <span>Download CV </span></a></li>
+                <li><a  data-section="contact" data-value="first-phone" href="https://api.whatsapp.com/send?phone=543483482479&text=Hola%20vi%20tu%20Curriculum%20Vitae%2C%20quiero%20hablar%20contigo%20..."
+                        target="_blank"><i class='bx bxs-phone-call bx-burst'></i> <span style='color:#00ff62ab'> Phone</span></a></li>
+                <li><a data-section="contact" data-value="first-cv" href="CVLaureanoNatalutti.pdf" download="CV Laureano Natalutti 01-2024"><i
+                            class='bx bxs-download bx-burst'></i> <span style='color:#00ff62ab'>Download CV </span></a></li>
 
             </div>
             <div class="contact-icons">

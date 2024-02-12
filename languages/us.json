@@ -1,0 +1,80 @@
+{
+
+    "profile": {
+        "rol": "Hello,  It's Me",
+        "description": "Dedicated to creating impactful digital experiences. My approach goes beyond mere programming; I am a visual creator seamlessly merging design and development to build memorable and functional websites.  <br>  <br> Transforming creative ideas into digital reality.",
+        "first-button": "My Career"
+    },
+    
+    "experience": {
+        "first-job-title": "About Me",
+        "first-job-subtitle": "Creating Digital Experiences with Passion",
+        "first-job-description": "Greetings, I'm Laureano Natalutti, a Full Stack developer driven by an intense passion for creating exceptional digital experiences. My meticulous focus on detail and unwavering commitment to excellence immerse me at the intersection of coding and design, bringing innovative ideas to life with a distinctive touch. Since discovering my love for programming, I have fully immersed myself in the world of web development, eagerly exploring new technologies and emerging trends. My constant quest for learning and evolution keeps me at the forefront of the latest trends in frontend design and development.",
+        "first-job-button": "Explore My Journey",
+        "second-job-title": "My Services",
+        "second-job-description": "As a Full Stack Developer and Web Designer, I offer specialized services to take your projects to the next level. My areas of expertise include",
+        "third-first-title": "Frontend Development and UI/UX Design",
+        "third-first-description": "Visual Creation: I transform abstract concepts into captivating visual interfaces, ensuring a unique user experience. Modern Technology: I use advanced FrontEnd technologies such as HTML5, CSS3, and JavaScript, along with frameworks like React and Node.js, to build modern and efficient websites.",
+        "third-second-title": "User Experience Optimization",
+        "third-second-description": "Visual Creation: I transform abstract concepts into captivating visual interfaces, ensuring a unique user experience. Modern Technology: I use advanced FrontEnd technologies such as HTML5, CSS3, and JavaScript, along with frameworks like React and Node.js, to build modern and efficient websites.",
+        "third-third-title": "Full Stack Development",
+        "third-third-description": "Comprehensive Solutions: I offer a complete approach from conception to implementation, ensuring cohesion between frontend and backend. Efficiency and Performance: Efficiency in development and robust performance are fundamental in my approach, ensuring your projects are scalable and effective.",
+        "third-fourth-title": "Continuous Innovation",
+        "third-fourth-description": "Staying Ahead: I stay constantly updated with the latest trends in design and development, incorporating innovation into every project. Modern Solutions: From emerging technologies to current development practices, I implement modern solutions that keep your digital presence up to market expectations."
+    },
+    "logo": {
+        "first-logo": "PORT<span style='color:#00e1ff'>FOLIO</span>",
+        "first": "Home",
+        "second":  "About",
+        "third": "Skill",
+        "fourth": "Portfolio",
+        "five": "Contact"
+    },
+    "about": {
+        "about-title": "About<span style='color:#00e1ff'> Me</span>",
+        "about-subtitle": "Crafting Digital Experiences with Passion",
+        "p":  "Greetings, I'm Laureano Natalutti, an accomplished Full Stack Developer driven by an intense passion for crafting exceptional digital experiences. My meticulous focus on detail and unwavering commitment to excellence immerse me in the intersection of coding and design, bringing innovative ideas to life with a distinctive touch. <br> <br> Since I discovered my love for programming, I have been fully immersed in the world of web development, eagerly exploring new technologies and emerging trends. My constant pursuit of learning and evolution keeps me at the forefront of the latest trends in frontend design and development.",
+        "first-button": "Explore My Career"
+    }, 
+    "services": {
+        "first": "My<span style='color:#00e1ff'> Services</span>",
+        "first-p": "As a Full Stack Developer and Web Designer, I offer specialized services to take your projects to the next level. My areas of expertise include",
+        "first-title": "Frontend Development and UI/UX Design",
+        "second-title": "User Experience Optimization",
+        "third-title": "Full Stack Development",
+        "fourth-title": "Continuous Innovation",
+        "services-p-1": " <strong style='color:#00e1ff'>Visual Creation:</strong> I transform abstract concepts into captivating visual interfaces, ensuring a unique user experience.<br><br> <strong style='color:#00e1ff'>Modern Technology:</strong> I use advanced FrontEnd technologies like HTML5, CSS3 and JavaScript, along with frameworks like React and Node.js, to build modern and efficient websites.",
+        "services-p-2": " <strong style='color:#00e1ff'>Intuitive Interfaces:</strong> I specialize in creating user-friendly interfaces, prioritizing user experience to ensure smooth navigation and effective interaction.<br><br> <strong style='color:#00e1ff'>User Testing:</strong> I perform extensive testing to ensure that every element of the interface meets usability and accessibility standards.",
+        "services-p-3": " <strong style='color:#00e1ff'>Holistic Solutions:</strong> I offer a complete approach from conception to implementation, ensuring cohesion between frontend and backend. <br><br> <strong style='color:#00e1ff'>Efficiency and Performance:</strong> Development efficiency and robust performance are central to my approach, ensuring that your projects are scalable and effective.",
+        "services-p-4": " <strong style='color:#00e1ff'>Staying on the Cutting Edge:</strong> I remain constantly updated with the latest trends in design and development, incorporating innovation into every project. <br><br> <strong style='color:#00e1ff'>Modern Solutions:</strong> From emerging technologies to current development practices, I implement modern solutions that keep your digital presence on par with market expectations."
+    },    
+    "skill": {
+        "first-title": "My<span style='color:#00e1ff'> Skills</span>",
+        "first-subtitle": "Technical Skills",
+        "second-subtitle":  "Professional Skills",
+        "first-first-percentage": "Teamwork",
+        "first-second-percentage": "Creativity",
+        "first-third-percentage": "Communication",
+        "first-fourth-percentage": "Problem Solving"
+    },
+    "project": {
+        "first-title": "Latest<span style='color:#00e1ff'> Projects</span>",
+        "first-layer-subtitle": "Digital Marketing Agency",
+        "second-layer-subtitle": "FrontEnd & UI/UX",
+        "third-layer-subtitle": "Website Development",
+        "first-layer-p1": "Enhance your digital presence at Digital Social Connect, where we blend development and design to stand out in the digital world. As a Full Stack Developer and enthusiasts of UI/UX Design, we craft unique experiences, turning ideas into digital reality, exceeding expectations, and setting standards in every project.",
+        "first-layer-p2": "In a recent project, I transformed creative ideas into a captivating and functional interface. From crafting visual elements to implementing efficient frontend solutions, my comprehensive approach ensured an exceptional user experience. Discover how each line of code and every visual detail came together to drive the success of this distinctive project.",
+        "first-layer-p3": "Explore my expertise in web development, where each line of code is essential for crafting unique digital experiences. From conception to implementation, each project reflects my comprehensive approach by seamlessly blending attractive design with robust functionality."
+    },
+    "contact": {
+        "first-title": "Contact<span style='color:#00e1ff'> Me</span>",
+        "first-subtitle": "Let's work together",
+        "first-p": "Excited to be part of extraordinary projects that push boundaries. If you're seeking a dedicated and passionate professional, I'm here to bring your vision to life. Actively exploring new opportunities and inspiring collaborations. Ready to infuse my experience and creativity into ambitious challenges.<br><br>Let's chat and make your goals a reality!",
+        "first-phone": "<i class='bx bxs-phone-call bx-burst'></i> <span style='color:#00ff62ab''> Phone</span>",
+        "first-cv": "<i class='bx bxs-download bx-burst'></i> <span style='color:#00ff62ab'>Download CV </span>"
+    }
+   
+    
+
+}
+

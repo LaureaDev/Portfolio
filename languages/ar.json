@@ -1,0 +1,78 @@
+{
+    "profile": {
+        "rol": "Hola, Yo Soy",
+        "description": "Dedicado a crear experiencias digitales impactantes. Mi enfoque va más allá de la mera programación; soy un creador visual que fusiona de manera fluida el diseño y el desarrollo para construir sitios web memorables y funcionales. <br> <br> Transformando ideas creativas en realidad digital.",
+        "first-button": "Mi Carrera"
+    },
+    
+        "experience": {
+            "first-job-title": "Sobre mí",
+            "first-job-subtitle": "Crear Experiencias Digitales con Pasión",
+            "first-job-description": "Saludos, soy Laureano Natalutti, un desarrollador Full Stack impulsado por una intensa pasión por la creación de experiencias digitales excepcionales. Mi enfoque meticuloso en el detalle y el compromiso inquebrantable con la excelencia me sumergen en la intersección de la codificación y el diseño, dando vida a ideas innovadoras con un toque distintivo. Desde que descubrí mi amor por la programación, me he sumergido de lleno en el mundo del desarrollo web, explorando ansiosamente nuevas tecnologías y tendencias emergentes. Mi constante búsqueda de aprendizaje y evolución me mantiene a la vanguardia de las últimas tendencias en diseño y desarrollo frontend.",
+            "first-job-button": "Explore Mi Carrera",
+            "second-job-title": "My Servicios",
+            "second-job-description": "Como Desarrollador Full Stack y Diseñador Web, ofrezco servicios especializados para llevar tus proyectos al siguiente nivel. Mis áreas de experiencia incluyen",
+            "third-first-title": "Desarrollo frontend y diseño UI/UX",
+            "third-first-description": "Creación Visual: Transformo conceptos abstractos en interfaces visuales cautivadoras, garantizando una experiencia de usuario única. Tecnología Moderna: Utilizo tecnologías avanzadas en el FrontEnd como HTML5, CSS3 y JavaScript, junto con frameworks como React y Node.js, para construir sitios web modernos y eficientes.",
+            "third-second-title": "Optimización de la Experiencia del Usuario",
+            "third-second-description": "Creación Visual: Transformo conceptos abstractos en interfaces visuales cautivadoras, garantizando una experiencia de usuario única. Tecnología Moderna: Utilizo tecnologías avanzadas en el FrontEnd como HTML5, CSS3 y JavaScript, junto con frameworks como React y Node.js, para construir sitios web modernos y eficientes.",
+            "third-third-title": "Desarrollo Full Stack",
+            "third-third-description": "Soluciones Integrales: Ofrezco un enfoque completo desde la concepción hasta la implementación, asegurando cohesión entre el frontend y el backend. Eficiencia y Rendimiento: La eficiencia en el desarrollo y un rendimiento robusto son fundamentales en mi enfoque, asegurando que tus proyectos sean escalables y efectivos.",
+            "third-fourth-title": "Innovación Continua",
+            "third-fourth-description": "Permaneciendo a la Vanguardia: Me mantengo constantemente actualizado con las últimas tendencias en diseño y desarrollo, incorporando innovación en cada proyecto. Soluciones Modernas: Desde tecnologías emergentes hasta prácticas de desarrollo actuales, implemento soluciones modernas que mantienen tu presencia digital a la altura de las expectativas del mercado."
+        },
+        "logo": {
+            "first-logo": "PORTA<span style='color:#00e1ff'>FOLIO</span>",
+            "first": "INICIO",
+            "second":  "Acerca",
+            "third": "Habilidades",
+            "fourth": "Portafolio",
+            "five": "Contacto"
+        },
+        "about": {
+            "about-title": "Sobre<span style='color:#00e1ff'> Mi</span>",
+            "about-subtitle": "Crear Experiencias Digitales con Pasión",
+            "p":  "Saludos, soy Laureano Natalutti, un experimentado Desarrollador Full Stack impulsado por una intensa pasión por crear experiencias digitales excepcionales. Mi enfoque meticuloso en los detalles y mi compromiso inquebrantable con la excelencia me sumergen en la intersección entre la codificación y el diseño, dando vida a ideas innovadoras con un toque distintivo. <br> <br> Desde que descubrí mi amor por la programación, me he sumergido por completo en el mundo del desarrollo web, explorando con entusiasmo nuevas tecnologías y tendencias emergentes. Mi constante búsqueda de aprendizaje y evolución me mantiene a la vanguardia de las últimas tendencias en diseño y desarrollo frontend. ",
+            "first-button": "Explorar Mi Carrera"
+        }, 
+        "services": {
+            "first": "Mis<span style='color:#00e1ff'> Servicios</span>",
+            "first-p": "Como Desarrollador Full Stack y Diseñador Web, ofrezco servicios especializados para llevar tus proyectos al siguiente nivel. Mis áreas de experiencia incluyen:",
+            "first-title": "Desarrollo Frontend y Diseño UI/UX",
+            "second-title": "Optimización de Experiencia del Usuario",
+            "third-title": "Desarrollo Full Stack",
+            "fourth-title": "Innovación Continua",
+            "services-p-1": " <strong style='color:#00e1ff'>Creación Visual:</strong> Transformo conceptos abstractos en interfaces visuales cautivadoras, asegurando una experiencia de usuario única.<br><br> <strong style='color:#00e1ff'>Tecnología Moderna:</strong> Utilizo tecnologías avanzadas de FrontEnd como HTML5, CSS3 y JavaScript, junto con frameworks como React y Node.js, para construir sitios web modernos y eficientes.",
+            "services-p-2": "<strong style='color:#00e1ff'>Interfaces Intuitivas:</strong> Me especializo en la creación de interfaces amigables para el usuario, priorizando la experiencia del usuario para garantizar una navegación fluida e interacción efectiva.<br><br> <strong style='color:#00e1ff'>Pruebas con Usuarios:</strong> Realizo pruebas exhaustivas para asegurarme de que cada elemento de la interfaz cumpla con los estándares de usabilidad y accesibilidad.",
+            "services-p-3": "<strong style='color:#00e1ff'>Soluciones Holísticas:</strong> Ofrezco un enfoque completo desde la concepción hasta la implementación, asegurando cohesión entre el frontend y el backend. <br><br> <strong style='color:#00e1ff'>Eficiencia y Rendimiento:</strong> La eficiencia en el desarrollo y un rendimiento sólido son fundamentales en mi enfoque, asegurando que tus proyectos sean escalables y efectivos.",
+            "services-p-4": "<strong style='color:#00e1ff'>Permaneciendo a la Vanguardia:</strong> Me mantengo constantemente actualizado con las últimas tendencias en diseño y desarrollo, incorporando innovación en cada proyecto. <br><br> <strong style='color:#00e1ff'>Soluciones Modernas:</strong> Desde tecnologías emergentes hasta prácticas actuales de desarrollo, implemento soluciones modernas que mantienen tu presencia digital a la altura de las expectativas del mercado."
+        },
+        "skill": {
+            "first-title": "Mis<span style='color:#00e1ff'> Habilidades</span>",
+            "first-subtitle": "Habilidades Técnicas",
+            "second-subtitle":  "Habilidades Profesionales",
+            "first-first-percentage": "Trabajo en Equipo",
+            "first-second-percentage": "Creatividad",
+            "first-third-percentage": "Comunicación",
+            "first-fourth-percentage": "Resolución de Problemas"
+        },
+        "project": {
+            "first-title": "Últimos<span style='color:#00e1ff'> Proyectos</span>",
+            "first-layer-subtitle": "Agencia de Marketing Digital",
+            "second-layer-subtitle": "Frontend y UI/UX",
+            "third-layer-subtitle": "Desarrollo de Sitios Web",
+            "first-layer-p1": "Mejora tu presencia digital en Digital Social Connect, donde fusionamos desarrollo y diseño para destacar en el mundo digital. Como Desarrollador Full Stack y entusiastas del Diseño UI/UX, creamos experiencias únicas, convirtiendo ideas en realidad digital, superando expectativas y estableciendo estándares en cada proyecto.",
+            "first-layer-p2": "En un proyecto reciente, transformé ideas creativas en una interfaz cautivadora y funcional. Desde la creación de elementos visuales hasta la implementación de soluciones eficientes en el frontend, mi enfoque integral garantizó una experiencia de usuario excepcional. Descubre cómo cada línea de código y cada detalle visual se unieron para impulsar el éxito de este proyecto distintivo.",
+            "first-layer-p3": "Descubre mi experiencia en desarrollo web, donde cada línea de código es esencial para crear experiencias digitales únicas. Desde la idea hasta la implementación, cada proyecto refleja mi enfoque integral al combinar diseño atractivo con funcionalidad sólida."
+        },
+        "contact": {
+            "first-title": "Contacta<span style='color:#00e1ff'>me</span>",
+            "first-subtitle":  "Trabajemos juntos",
+            "first-p": "Emocionado de ser parte de proyectos extraordinarios que desafían límites. Si buscas un profesional dedicado y apasionado, estoy aquí para dar vida a tu visión. Explorando activamente nuevas oportunidades e inspirando colaboraciones. Listo para infundir mi experiencia y creatividad en desafíos ambiciosos.<br><br>¡Hablemos y hagamos realidad tus metas!",
+            "first-phone": "Teléfono",
+            "first-phone": "<i class='bx bxs-phone-call bx-burst'></i> <span style='color:#00ff62ab''> Teléfono</span>",
+            "first-cv": "<i class='bx bxs-download bx-burst'></i> <span style='color:#00ff62ab'>Descargar CV </span>"
+        }
+        
+
+}
