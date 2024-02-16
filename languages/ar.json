@@ -61,15 +61,14 @@
             "first-layer-subtitle": "Agencia de Marketing Digital",
             "second-layer-subtitle": "Frontend y UI/UX",
             "third-layer-subtitle": "Desarrollo de Sitios Web",
-            "first-layer-p1": "Mejora tu presencia digital en Digital Social Connect, donde fusionamos desarrollo y diseño para destacar en el mundo digital. Como Desarrollador Full Stack y entusiastas del Diseño UI/UX, creamos experiencias únicas, convirtiendo ideas en realidad digital, superando expectativas y estableciendo estándares en cada proyecto.",
-            "first-layer-p2": "En un proyecto reciente, transformé ideas creativas en una interfaz cautivadora y funcional. Desde la creación de elementos visuales hasta la implementación de soluciones eficientes en el frontend, mi enfoque integral garantizó una experiencia de usuario excepcional. Descubre cómo cada línea de código y cada detalle visual se unieron para impulsar el éxito de este proyecto distintivo.",
+            "first-layer-p1": "Mejora tu presencia digital en Digital Social Connect, fusionando desarrollo y diseño para destacar en el mundo digital. Como Desarrollador Full Stack y apasionado del Diseño UI/UX, creamos experiencias únicas, convirtiendo ideas en realidad digital y estableciendo estándares en cada proyecto.",
+            "first-layer-p2": "En un proyecto reciente, convertí ideas creativas en una interfaz atractiva y funcional. Mi enfoque integral garantizó una experiencia de usuario excepcional, destacando cómo cada línea de código y detalle visual contribuyeron al éxito del proyecto",
             "first-layer-p3": "Descubre mi experiencia en desarrollo web, donde cada línea de código es esencial para crear experiencias digitales únicas. Desde la idea hasta la implementación, cada proyecto refleja mi enfoque integral al combinar diseño atractivo con funcionalidad sólida."
         },
         "contact": {
             "first-title": "Contacta<span style='color:#00e1ff'>me</span>",
             "first-subtitle":  "Trabajemos juntos",
             "first-p": "Emocionado de ser parte de proyectos extraordinarios que desafían límites. Si buscas un profesional dedicado y apasionado, estoy aquí para dar vida a tu visión. Explorando activamente nuevas oportunidades e inspirando colaboraciones. Listo para infundir mi experiencia y creatividad en desafíos ambiciosos.<br><br>¡Hablemos y hagamos realidad tus metas!",
-            "first-phone": "Teléfono",
             "first-phone": "<i class='bx bxs-phone-call bx-burst'></i> <span style='color:#00ff62ab''> Teléfono</span>",
             "first-cv": "<i class='bx bxs-download bx-burst'></i> <span style='color:#00ff62ab'>Descargar CV </span>"
         }

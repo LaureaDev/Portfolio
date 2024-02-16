@@ -259,7 +259,7 @@ nav ul li a {
 
 .about-text p {
 
-    text-align: justify;
+    /* text-align: justify; */
     color: aliceblue;
     font-size: 20px;
     line-height: 1.4rem;
@@ -704,7 +704,8 @@ section{
             250px, 1fr
         )
     );
-    align-items: center;
+    align-items:center;
+    
     gap: 3rem;
     padding-left: 30px;
     margin-top: 130px;
@@ -1084,6 +1085,7 @@ cursor: pointer;
 /* Responsive for large than 575px srceen */
 
 @media screen and (max-width:575px) {
+
     .home-content h1 {
         font-size: 36px;
     }
@@ -1094,45 +1096,54 @@ cursor: pointer;
         width: 60%;
        
     }
-    .about {
+    .about, .services {
         padding: 70px 5% 0; 
     }
     .sub-title h2 {
         font-size: 36px;
     }
     .about-text{
+        
         padding: 3px 20px 0;
     }
-
+    .services {
+        margin-top: -50px;
+    }
     
     .technical-bars .bar{
         width: 100%;
     }
     
     .radial-bar .percentage{
-        left: 35%;
+        left: 60px;
     }
     
     .radial-bar .text{
-    left: 30%;
-    top: 0%;
+    left: 70px;
+    top: -18px;
+    
+    }
+    .radial-bar {
+        margin: 5px;
     }
 
     .main-text h2 {
+        margin-top: -120px;
         font-size: 24px;
     }
     .layer h5 {
-        font-size: 36px;
+        font-size: 18px;
     }
     .layer p{
-        font-size: 20px;
+        text-align: center;
+        font-size: 12px;
         
     }
     .layer i {
-        margin-top: 10px;
+        margin-top: 1px;
         font-size: 10px;
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
     }
 
     .contact-text h2 {
@@ -1141,4 +1152,30 @@ cursor: pointer;
     .sub-title {
         font-size: 36px;
     }
+}
+
+
+@media screen and (max-width:390px) {
+    .about, .services {
+        padding: 10px 1px 0; 
+    }
+    .myserv {
+        text-align: center;
+        padding: 10px 0 10px;
+    }
+    .about {
+        margin-top: 450px;
+    }
+    
+    .top {
+        position: fixed;
+        bottom: 30px;
+        right: 50px;
+     }
+     .contact-text p {
+        padding: 0px;
+        text-align:left;
+        font-size: 18px;
+     }
+
 }
